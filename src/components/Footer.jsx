@@ -6,7 +6,7 @@ import TwitterLogo from '../images/products/twitter.png';
 import ContactUsLogo from '../images/products/contact-us.png';
 
 /**
- * Home component to render items in the UI
+ * Home component to render items in the UI component
  * @param {object} props  Create component properties
  * @returns {JSX.Element}  Create component instance
  */
