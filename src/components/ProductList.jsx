@@ -30,40 +30,8 @@ const ProductList = () => {
                     <div className="icon"><InfoIcon /></div>
 
                     <div className="contents">
-                      <table>
-                        <tr>
-                          <th>Weight</th>
-                          <td>:&nbsp;&nbsp;100 grams</td>
-                        </tr>
-                        <tr>
-                          <th>Goat Milk Soap base</th>
-                          <td>:&nbsp;&nbsp;100 grams</td>
-                        </tr>
-                        <tr>
-                          <th>Olive Oil</th>
-                          <td>:&nbsp;&nbsp;2 tsp</td>
-                        </tr>
-                        <tr>
-                          <th>Turmeric Powder</th>
-                          <td>:&nbsp;&nbsp;1 tsp</td>
-                        </tr>
-                        <tr>
-                          <th>Tumeric essential oil</th>
-                          <td>:&nbsp;&nbsp;15 drops</td>
-                        </tr>
-                        <tr>
-                          <th>Frankincense essential oil</th>
-                          <td>:&nbsp;&nbsp;15 drops</td>
-                        </tr>
-                        <tr>
-                          <th>Myrrh essential oil</th>
-                          <td>:&nbsp;&nbsp;15 drops</td>
-                        </tr>
-                        <tr>
-                          <th>Others</th>
-                          <td>:&nbsp;&nbsp;Vitamin E</td>
-                        </tr>
-                      </table>
+                      <h1>Ingredients for {item.name}</h1>
+                      <p>{item.ingredients}</p>
                     </div>
                   </div>
                 </div>
